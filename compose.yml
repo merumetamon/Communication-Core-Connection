@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     # プロジェクト作成時はcommandをコメントアウト（コンテナが立ち上がらないため）
-    # command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
     volumes:
       - .:/communication-core-connection
     env_file:
@@ -19,7 +19,7 @@ services:
       - db
   # MySQLの設定
   db:
-    container_name: sample_db
+    container_name: db-1
     image: mysql:8.0
     volumes:
       - db-data:/var/lib/mysql
