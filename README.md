@@ -39,6 +39,7 @@ Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
 | MySQL | 8.0.31 | 
 
 ## 最初にやること
+参考:https://zenn.dev/kei1232/articles/0fac51829570c1
 
 1. リポジトリのクローン   
 `git clone `
