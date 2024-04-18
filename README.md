@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< environment_building
 # README
 
@@ -24,6 +25,8 @@ Things you may want to cover:
 
 * ...
 =======
+=======
+>>>>>>> main
 # Communication-Core-Connection　とは
 
 Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
@@ -43,4 +46,7 @@ Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
 `docker-compose run web rails db:create`
 3. Docker起動   
 `docker-compose up`
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
