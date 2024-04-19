@@ -16,7 +16,7 @@ default: &default
   database: <%= ENV.fetch("MYSQL_DB") { '' } %>
   username: <%= ENV.fetch("MYSQL_USER") { '' } %>
   password: <%= ENV.fetch("MYSQL_ROOT_PASSWORD") { '' } %>
-  host: db-1
+  host: communication-core-connection
 
 development:
   <<: *default
