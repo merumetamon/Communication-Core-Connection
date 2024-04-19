@@ -10,7 +10,7 @@ Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
 | 名前 | バージョン |
 | ---- | ---- |
 | Ruby  | 3.2.3-p157|
-| Rails | Rails 7.0.4 |
+| Rails | Rails 7.1.3.2 |
 | MySQL | 8.0.31 | 
 
 ## 最初にやること
