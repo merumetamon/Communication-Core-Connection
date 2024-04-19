@@ -1,32 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< environment_building
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-=======
->>>>>>> main
 # Communication-Core-Connection　とは
 
 Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
@@ -42,12 +16,10 @@ Ruby on Rails Ver.7.0.4 をDocker上で構築する際のサンプルです。
 参考:https://zenn.dev/kei1232/articles/0fac51829570c1
 
 1. リポジトリのクローン   
-`git clone `
-2. DB作成   
+`git clone git@github.com:merumetamon/communication-core-connection.git`
+2.  Docker構築
+`docker-compose build  `
+3. DB作成   
 `docker-compose run web rails db:create`
-3. Docker起動   
+4. Docker起動   
 `docker-compose up`
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
